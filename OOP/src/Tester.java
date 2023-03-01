@@ -23,6 +23,14 @@ public class Tester {
 		
 		System.out.println("----------");
 		o2.vypisInfo();
+		
+		System.out.println("Obsah o2 = " + o2.obsah());
+		
+		System.out.println("Obvod o = " + o.obvod());
+		
+		
+		System.out.println("*******************");
+		o2.kompletInfo();
 
 	}
 
