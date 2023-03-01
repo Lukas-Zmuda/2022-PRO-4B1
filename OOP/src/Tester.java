@@ -11,7 +11,18 @@ public class Tester {
 		o.x = 0;
 		o.y = 0;
 		
-		System.out.println("Farba obdlznika je " + o.farba);
+		
+		o.vypisInfo();
+		Obdlznik o2 = new Obdlznik();
+		o2.dlzka = 152;
+		o2.sirka = 12;
+		o2.farba = "ruzova";
+		o2.x = -4;
+		o2.y = 1;
+		
+		
+		System.out.println("----------");
+		o2.vypisInfo();
 
 	}
 
