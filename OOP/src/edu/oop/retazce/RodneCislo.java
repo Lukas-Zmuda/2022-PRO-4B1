@@ -21,4 +21,9 @@ public class RodneCislo {
 	boolean pohlavie() {
 		
 	}
+	
+	//metoda vrati datum narodenia v tvare 12.01.1981
+	String datumNarodenia() {
+		
+	}
 }
